@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"
+		content="width=device-width, 
+	initial-scale=1.0"> 
+	<title>Bingo Game</title> 
+	<link rel="stylesheet" href="styles.css"> 
+</head> 
+
+<body> 
+	<div class="bingo-container"> 
+		<h1>Bingo Game</h1> 
+		<div class="player-cards"> 
+			<h1>Player 1's Card</h1> 
+			<div class="player-card" id="player1Card"> 
+			</div>
+            <h1>Player 2's Card</h1>
+			<div class="player-card" id="player2Card"> 
+			</div> 
+            <h1>Player 3's Card</h1> 
+			<div class="player-card" id="player3Card"> 
+			</div> 
+            <h1>Player 4's Card</h1>
+			<div class="player-card" id="player4Card"> 
+			</div> 
+			 
+		</div> 
+		<div class="controls"> 
+			<button id="startButton"> 
+				Start 
+			</button> 
+			<button id="resetButton" disabled> 
+				Reset 
+			</button> 
+		</div> 
+		<div class="input-container"> 
+			<button id="markButton" disabled> 
+				Generate Number 
+			</button> 
+			<label for="numberInput" id="numerberGenerated"> 
+				The number was:
+			</label> 
+		</div>  
+	</div> 
+	<script src="script.js"></script> 
+</body> 
+
+</html>
+
