@@ -83,7 +83,7 @@ label {
 .player-card div { 
 	background-color: #379683; 
 	/* Dark green number background color */
-	color: black; 
+	color: white; 
 	width: 30px; 
 	height: 30px; 
 	border-radius: 50%; 
@@ -97,25 +97,3 @@ label {
 	background-color: #ff5e78; 
 	/* Light red for marked numbers */
 } 
-
-@keyframes celebrate { 
-
-	0%, 
-	100% { 
-		transform: translateY(0); 
-	} 
-
-	50% { 
-		transform: translateY(-20px); 
-	} 
-} 
-
-#winDisplay { 
-	font-weight: bold; 
-	font-size: large; 
-	text-decoration: underline; 
-	color: #098900de; 
-	/* Light red text color */
-	margin-top: 30px; 
-	animation: celebrate 1s ease-in-out infinite; 
-}

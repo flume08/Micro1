@@ -20,14 +20,15 @@
             <h1>Player 2's Card</h1>
 			<div class="player-card" id="player2Card"> 
 			</div> 
-            <h1>Player 3's Card</h1> 
+		</div>
+		<div class="player-cards" >
+			<h1>Player 3's Card</h1> 
 			<div class="player-card" id="player3Card"> 
 			</div> 
             <h1>Player 4's Card</h1>
 			<div class="player-card" id="player4Card"> 
 			</div> 
-			 
-		</div> 
+		</div>
 		<div class="controls"> 
 			<button id="startButton"> 
 				Start 
@@ -42,7 +43,19 @@
 			</button> 
 			<label for="numberInput" id="numerberGenerated"> 
 				The number was:
-			</label> 
+			</label>
+			<div class="board-size">
+				<h1>Choose Board Size</h1>
+				<div class="board-size">
+					<h1>Choose Board Size</h1>
+					<input type="radio" id="size3" name="boardSize" value="3">
+					<label for="size3">3x3</label><br>
+					<input type="radio" id="size4" name="boardSize" value="4">
+					<label for="size4">4x4</label><br>
+					<input type="radio" id="size5" name="boardSize" value="5">
+					<label for="size5">5x5</label>
+				</div>
+			</div>
 		</div>  
 	</div> 
 	<script src="script.js"></script> 
