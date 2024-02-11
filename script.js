@@ -175,6 +175,7 @@ function checkWin(card) {
 
 function endGame() {
 	points1 = calculatePoints(player1Card);
+	console.log(points1);
     points2 = calculatePoints(player2Card);
     points3 = calculatePoints(player3Card);
     points4 = calculatePoints(player4Card);
@@ -306,6 +307,7 @@ document
 document.getElementById('markButton').addEventListener('click', () => {
 	if (checkGameOver()) {
         endGame();
+		console.log(points1)
 		alert('Game Over')
     }
 		const number = generateNumber();
